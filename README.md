@@ -1,2 +1,3 @@
-# 404-page
-404 Not Found page
+# 404 Not Found page
+
+A simple 404 Not Found page
