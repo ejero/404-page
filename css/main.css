@@ -1,0 +1,444 @@
+html{
+    margin: 40px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.body-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+}
+
+.item-body{
+    text-align: left;
+    width: 586px;
+    height: auto;
+} 
+
+
+.send{
+    background-color: #333;
+    color: #fff;
+    width: 130px;
+    height: 200px;
+}
+
+.inner-body-container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+}
+
+div>p:nth-child(1){
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+
+h1{
+    font-family: 'Space mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    width: 586px;
+    height: 190px; 
+}
+
+
+.inner-body-item  + p{
+    color:#4f4f4f;
+    font-family: 'Space mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
+
+
+input{
+    width: 216px;
+    height: 68px;
+    left: 740px;
+    top:663px;
+    background: #333333;
+    color: #ffffff;
+}
+
+span{
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color:#bdbdbd;
+    margin-bottom: -16px;
+    margin-top: 120px;
+}
+
+@media (max-width: 1300px) and (min-width: 1025px){
+
+    /* Makes whole container smaller */
+    .container{
+        gap:160px;
+    }
+    
+    
+    .item-body{
+        width: 467px;
+        height: auto;
+    }
+
+    .body-container{
+        gap: 10%;
+    }
+
+    input{
+        margin-top: 10px;
+    }
+
+    h1{
+        font-family: 'Space mono', monospace;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 80px;
+        letter-spacing: -0.035em;
+        width: 586px;
+        height: 190px; 
+    }
+
+}
+
+
+@media (max-width:1024px) and (min-width:769px){
+     /* Makes whole container smaller */
+     .container{
+        gap:5px;
+
+    }
+    
+    .body-container{
+        gap: 5%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Srink the scarecrow */
+    .item-body{
+        width: 567px;
+        height: auto;
+    }
+
+    
+    input{
+        margin-top: 20px;
+    }
+
+    h1{
+        font-size: 40px;
+        line-height: 80px;
+    }
+
+    .inner-body-item  + p{
+        font-size: 23px;
+        line-height: 24px;
+        width: 530px;
+    }
+
+    .inner-body-container{
+        align-items: center;
+    }
+}
+
+
+
+
+@media (max-width:768px){
+    /* Makes whole container smaller */
+    .container{
+        gap:10px;
+    }
+    
+    .body-container{
+        gap: 45px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item-body{
+        width: 400px;
+        height: auto;
+    }
+
+    
+    input{
+        margin-top: 20px;
+    }
+
+    h1{
+        font-size: 48px;
+        line-height: 71px;
+        width: 300px;
+    }
+
+
+    .inner-body-container{
+        align-items: left;
+    } 
+
+    .inner-body-item  + p{
+        font-size: 18px;
+        line-height: 24px;
+        width: 350px;
+    }
+
+    
+}
+html{
+    margin: 40px;
+}
+
+
+.container{
+    /* border: 2px solid rgb(6, 199, 148); */
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+/* .item{
+    border: 2px solid rgb(121, 186, 227);
+} */
+
+.body-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+}
+
+.item-body{
+    text-align: left;
+    width: 586px;
+    height: auto;
+} 
+
+
+.send{
+    background-color: #333;
+    color: #fff;
+    width: 130px;
+    height: 200px;
+}
+
+.inner-body-container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+}
+
+div>p:nth-child(1){
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+
+h1{
+    font-family: 'Space mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    width: 586px;
+    height: 190px; 
+}
+
+
+.inner-body-item  + p{
+    color:#4f4f4f;
+    font-family: 'Space mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
+
+
+input{
+    width: 216px;
+    height: 68px;
+    left: 740px;
+    top:663px;
+    background: #333333;
+    color: #ffffff;
+}
+
+span{
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color:#bdbdbd;
+    margin-bottom: -16px;
+    margin-top: 120px;
+}
+
+@media (max-width: 1300px) and (min-width: 1025px){
+
+    /* Makes whole container smaller */
+    .container{
+        gap:160px;
+    }
+    
+    
+    .item-body{
+        width: 467px;
+        height: auto;
+    }
+
+    .body-container{
+        gap: 10%;
+    }
+
+    input{
+        margin-top: 10px;
+    }
+
+    h1{
+        font-family: 'Space mono', monospace;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 80px;
+        letter-spacing: -0.035em;
+        width: 586px;
+        height: 190px; 
+    }
+
+}
+
+
+@media (max-width:1024px) and (min-width:769px){
+     /* Makes whole container smaller */
+     .container{
+        gap:5px;
+
+    }
+    
+    .body-container{
+        gap: 5%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Srink the scarecrow */
+    .item-body{
+        width: 567px;
+        height: auto;
+    }
+
+    
+    input{
+        margin-top: 20px;
+    }
+
+    h1{
+        font-size: 40px;
+        line-height: 80px;
+    }
+
+    .inner-body-item  + p{
+        font-size: 23px;
+        line-height: 24px;
+        width: 530px;
+    }
+
+    .inner-body-container{
+        align-items: center;
+    }
+}
+
+
+
+
+@media (max-width:768px){
+    /* Makes whole container smaller */
+    .container{
+        gap:10px;
+    }
+    
+    .body-container{
+        gap: 45px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item-body{
+        width: 400px;
+        height: auto;
+    }
+
+    
+    input{
+        margin-top: 20px;
+    }
+
+    h1{
+        font-size: 48px;
+        line-height: 71px;
+        width: 300px;
+    }
+
+
+    .inner-body-container{
+        align-items: left;
+    } 
+
+    .inner-body-item  + p{
+        font-size: 18px;
+        line-height: 24px;
+        width: 350px;
+    }
+
+    
+}
+
