@@ -1,6 +1,6 @@
 # 404 Not Found page
 
-A simple responsive 404 Not Found page
+A simple responsive 404 not found page
 
 
 ![Website Image](img/404-page-image.png)
